@@ -1,6 +1,6 @@
-package br.com.zup.model
+package br.com.zup.cdc.model
 
-import br.com.zup.dto.EnderecoDTO
+import br.com.zup.cdc.dto.EnderecoDTO
 import javax.persistence.Embeddable
 
 @Embeddable

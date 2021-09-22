@@ -1,7 +1,7 @@
-package br.com.zup.dto
+package br.com.zup.cdc.dto
 
-import br.com.zup.model.Autor
-import br.com.zup.model.Endereco
+import br.com.zup.cdc.model.Autor
+import br.com.zup.cdc.model.Endereco
 import io.micronaut.core.annotation.Introspected
 import javax.validation.constraints.Email
 import javax.validation.constraints.NotBlank

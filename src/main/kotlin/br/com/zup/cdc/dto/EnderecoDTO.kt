@@ -1,4 +1,4 @@
-package br.com.zup.dto
+package br.com.zup.cdc.dto
 
 data class EnderecoDTO(
 //    val rua: String,

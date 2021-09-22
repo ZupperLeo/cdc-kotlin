@@ -1,6 +1,6 @@
-package br.com.zup.dto
+package br.com.zup.cdc.dto
 
-import br.com.zup.model.Aluno
+import br.com.zup.cdc.model.Aluno
 import io.micronaut.core.annotation.Introspected
 import javax.validation.constraints.Size
 

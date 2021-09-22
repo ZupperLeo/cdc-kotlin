@@ -1,7 +1,7 @@
-package br.com.zup.controller
+package br.com.zup.cdc.controller
 
-import br.com.zup.dto.AlunoForm
-import br.com.zup.model.Aluno
+import br.com.zup.cdc.dto.AlunoForm
+import br.com.zup.cdc.model.Aluno
 import io.micronaut.http.HttpResponse
 import io.micronaut.http.MutableHttpResponse
 import io.micronaut.http.annotation.Controller

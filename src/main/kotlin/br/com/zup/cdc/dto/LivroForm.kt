@@ -1,4 +1,4 @@
-package br.com.zup.dto
+package br.com.zup.cdc.dto
 
 import io.micronaut.core.annotation.Introspected
 import javax.validation.constraints.NotBlank

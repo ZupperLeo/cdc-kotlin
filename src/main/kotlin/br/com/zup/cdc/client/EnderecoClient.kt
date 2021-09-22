@@ -1,6 +1,6 @@
-package br.com.zup.client
+package br.com.zup.cdc.client
 
-import br.com.zup.dto.EnderecoDTO
+import br.com.zup.cdc.dto.EnderecoDTO
 import io.micronaut.http.HttpResponse
 import io.micronaut.http.MediaType
 import io.micronaut.http.annotation.Consumes

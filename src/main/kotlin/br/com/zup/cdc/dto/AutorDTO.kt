@@ -1,6 +1,6 @@
-package br.com.zup.dto
+package br.com.zup.cdc.dto
 
-import br.com.zup.model.Autor
+import br.com.zup.cdc.model.Autor
 
 class AutorDTO(autor: Autor) {
 

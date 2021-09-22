@@ -1,4 +1,4 @@
-package br.com.zup.model
+package br.com.zup.cdc.model
 
 import java.time.LocalDateTime
 import javax.persistence.Entity

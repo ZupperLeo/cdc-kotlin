@@ -1,6 +1,6 @@
-package br.com.zup.repository
+package br.com.zup.cdc.repository
 
-import br.com.zup.model.Autor
+import br.com.zup.cdc.model.Autor
 import io.micronaut.data.annotation.Query
 import io.micronaut.data.annotation.Repository
 import io.micronaut.data.jpa.repository.JpaRepository

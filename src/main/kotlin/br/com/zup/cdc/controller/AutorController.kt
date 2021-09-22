@@ -1,10 +1,10 @@
-package br.com.zup.controller
+package br.com.zup.cdc.controller
 
-import br.com.zup.client.EnderecoClient
-import br.com.zup.dto.AutorDTO
-import br.com.zup.dto.NovoAutorForm
-import br.com.zup.model.Autor
-import br.com.zup.repository.AutorRepository
+import br.com.zup.cdc.client.EnderecoClient
+import br.com.zup.cdc.dto.AutorDTO
+import br.com.zup.cdc.dto.NovoAutorForm
+import br.com.zup.cdc.model.Autor
+import br.com.zup.cdc.repository.AutorRepository
 import io.micronaut.http.HttpResponse
 import io.micronaut.http.annotation.*
 
