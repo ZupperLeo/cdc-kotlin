@@ -57,6 +57,7 @@ dependencies {
     implementation("io.micronaut.data:micronaut-data-hibernate-jpa")
     implementation("org.postgresql:postgresql:42.2.23")
 
+    implementation("io.micronaut.xml:micronaut-jackson-xml")
 
     runtimeOnly("com.fasterxml.jackson.module:jackson-module-kotlin")
 
