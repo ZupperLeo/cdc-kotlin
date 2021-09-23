@@ -1,5 +1,7 @@
 package br.com.zup.cdc.dto
 
+import com.fasterxml.jackson.annotation.JsonProperty
+
 data class EnderecoDTO(
 //    val rua: String,
 //    val cidade: String,

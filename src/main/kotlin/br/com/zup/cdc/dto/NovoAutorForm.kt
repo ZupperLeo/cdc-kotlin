@@ -12,7 +12,7 @@ import javax.validation.constraints.Size
 data class NovoAutorForm(
     @field:NotBlank val nome: String,
     @field:NotBlank @field:Email val email: String,
-    @field:NotNull val livros: Set<LivroForm>,
+    /*@field:NotNull */val livros: Set<LivroForm>?,
     @field:NotBlank @field:Size(max = 400) val descricao: String,
     @field:NotBlank val cep: String,
     @field:NotBlank val numero: String

@@ -36,8 +36,8 @@ class AutorController(
 
         val uri = UriBuilder.of("/autores/{id}").expand(mutableMapOf(Pair("id", autor.id)))
 
-//        return HttpResponse.created(uri)
-        return HttpResponse.ok(uri)
+        return HttpResponse.created(uri)
+//        return HttpResponse.ok(uri)
     }
 
     @Get("/listar")
@@ -68,7 +68,9 @@ class AutorController(
         @QueryValue(defaultValue = "") nome: String, @QueryValue(defaultValue = "") email: String,
         @QueryValue(defaultValue = "") id: Long
     ): HttpResponse<Any> {
-        val possivelAutor = autorRepository.findByNomeAndEmailAndIdOrderByIdDesc(nome, email, id)
+//        val possivelAutor = autorRepository.findByNomeAndEmailAndIdOrderByIdDesc(nome, email, id)
+
+        val possivelAutor = autorRepository.findById(id)
 
         if (possivelAutor.isEmpty) {
             return HttpResponse.notFound()

@@ -19,6 +19,7 @@ apply plugin: "kotlin-jpa"
 apply plugin: "kotlin-allopen"
 
 allOpen {
+    annotation("import javax.inject.Singleton")
     annotation("io.micronaut.http.annotation.Controller")
 }
 
@@ -58,6 +59,17 @@ dependencies {
     implementation("org.postgresql:postgresql:42.2.23")
 
     implementation("io.micronaut.xml:micronaut-jackson-xml")
+
+    //testes
+    testAnnotationProcessor("io.micronaut:micronaut-inject-java")
+    testImplementation("io.micronaut:micronaut-http-client")
+    testImplementation("org.junit.jupiter:junit-jupiter-api:5.7.2")
+    testImplementation("org.mockito:mockito-core:3.8.0")
+    testImplementation("io.micronaut.test:micronaut-test-junit5:2.3.2")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.7.0")
+    testImplementation("com.h2database:h2")
+
+
 
     runtimeOnly("com.fasterxml.jackson.module:jackson-module-kotlin")
 

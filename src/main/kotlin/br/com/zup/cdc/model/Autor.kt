@@ -1,5 +1,6 @@
 package br.com.zup.cdc.model
 
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize
 import java.time.LocalDateTime
 import javax.persistence.Entity
 import javax.persistence.GeneratedValue
@@ -10,6 +11,7 @@ data class Autor(
     val nome: String?,
     val email: String?,
     var descricao: String?,
+    @JsonDeserialize
     val endereco: Endereco
 ) {
 
